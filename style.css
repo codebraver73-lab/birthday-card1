@@ -1,0 +1,49 @@
+#page2{ 
+    z-index: 1;
+    width:1500px ;
+    height:1000px;
+    background-image: url(https://www.shutterstock.com/image-illustration/happy-birthday-greeting-card-gradient-260nw-2363350399.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+
+
+}
+#page1{
+    z-index: 2;
+    width:1500px;
+    height:1000px; 
+    background-image: url(https://assets.cardly.net/production/artwork/8/f/e/8feb9450-02af-00ee-5f5f-245aec41cd7b/detail/congratulations-p1-r2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform-origin: left;
+
+}
+.rotate1{
+    animation-name: rotate1;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: forwards;
+
+}
+
+@keyframes rotate1{
+    from{transform: rotateY(0)}
+    to{transform: rotateY(90);}
+}
+#button1{
+   position: absolute;
+   top:790px;
+   left:400px;
+}
+#button2{
+   position: absolute;
+   top:600px;
+   left:750px;
+}
+
+body{
+    position: relative;
+}
